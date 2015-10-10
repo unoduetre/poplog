@@ -8,10 +8,6 @@ also online at
 THE POPLOG LINK SCRIPTS
 =======================
 Aaron Sloman
-
-11 Feb 2015
-Changed to use saved basepop11 in case new one does not work.
-
 21 Oct 2014
 
 Something has changed in the Ubuntu linker that stopped poplog linking

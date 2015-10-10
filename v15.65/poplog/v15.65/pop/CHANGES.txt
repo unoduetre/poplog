@@ -6,29 +6,6 @@ Aaron Sloman
 http://www.cs.bham.ac.uk/~axs/
 
 POPLOG CHANGES FOR VERSION V15.65
-11 Feb 2015
-    New saved image for download built, with the following changes:
-
-    Packages:
-        See $usepop/pop/packages/CHANGES.txt
-
-    Dynamic linking options:
-    Mateusz Grotek reported problems linking 32-bit Poplog in 64-bit gentoo linux
-    The problem seems to have been the linking options for linux in
-        $popsrc/unixextern.p
-    The list of linking options was extended, and that appears to solve the
-    problem. If linking problems remain, please email pop-forum@cs.bham.ac.uk
-
-10 Feb 2015
-    The poplog-dev mailing list has been disabled, though archives are still
-    viewable. For all comments, requests, etc. relating to poplog/pop11 please
-    now use pop-forum@cs.bham.ac.uk
-    Register as a user at
-        https://mailman.cs.bham.ac.uk/mailman/listinfo/pop-forum
-
-8 Feb 2015
-    See $usepop/pop/packages/CHANGES.txt
-
 21 Oct 2014
     See CHANGES in INSTALL/AREADME.txt
 

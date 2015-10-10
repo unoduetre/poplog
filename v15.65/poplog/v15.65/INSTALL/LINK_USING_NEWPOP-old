@@ -19,15 +19,6 @@
 #       ./INSTALL/LINK_USING_NEWPOP nomotif
 #
 
-
-if ( grep -i ubuntu  /proc/version > /dev/null );
-then
-    version="ubuntu"
-    echo 'Running Ubuntu'
-else
-    version='unknown'
-fi
-
 arg=${1:-motif}
 
 if [ $arg == "motif" ] ;
@@ -74,25 +65,12 @@ cd $popsys
 if [ $arg == "motif" ] ;
 then
 
-    echo "Installing with motif"
+    #try to build system images ready for motif
+
+    echo "trying to run $popsys/poplink_cmnd.motif.sh"
     echo ""
 
-    if [ $version == "ubuntu" ] ;
-
-    then
-        echo "Avoid relink in Ubuntu"
-        echo ""
-
-    else
-
-        #try to build system images ready for motif
-
-        echo "trying to run $popsys/poplink_cmnd.motif.sh"
-        echo ""
-
-        ./poplink_cmnd.motif.sh
-
-    fi
+    ./poplink_cmnd.motif.sh
 
 elif [ $arg == "nomotif" ]
 then
@@ -114,55 +92,26 @@ else
     echo "INAPPROPRIATE ARGUMENT FOR 'LINK_USING_NEWPOP'"
 fi
 
-if [ $version == "ubuntu" ] ;
+## See if link succeeded
 
+echo "checking for newpop11 after poplink_cmnd"
+
+ls -l newpop11
+
+if [ -f newpop11 ]
 then
-    echo "In ubuntu - using old basepop11"
-
-    echo "Try using old basepop11 with $popcom/mkstartup"
-    $usepop/pop/com/mkstartup
-
-    ls -l $usepop/pop/lib/psv
-
-    echo ""
-    echo "Creating more saved images"
-
-    $usepop/pop/com/makeimages
-    $usepop/pop/com/mkxved
-
-    echo "These are the saved images"
-    ls -l $usepop/pop/lib/psv
-
-    echo ""
-    echo "Creating Indexes"
-    $usepop/pop/com/makeindexes
-
-    exit
-
+    echo "copying newpop11 to basepop11"
+    touch newpop11.stb
+    nm newpop11 > newpop11.map
+    cp -p newpop11 basepop11
+    cp -p newpop11.stb basepop11.stb
+    cp -p newpop11.map basepop11.map
+    rm newpop11
 else
-
-    ## See if link succeeded
-
-    echo "checking for newpop11 after poplink_cmnd"
-
-    ls -l newpop11
-
-    if [ -f newpop11 ]
-    then
-        echo "copying newpop11 to basepop11"
-        touch newpop11.stb
-        nm newpop11 > newpop11.map
-        cp -p newpop11 basepop11
-        cp -p newpop11.stb basepop11.stb
-        cp -p newpop11.map basepop11.map
-        rm newpop11
-    else
-        echo "COULD NOT LINK NEWPOP11:"
-        echo "The rest may work anyway."
-        echo "If not, then try asking for help"
-        echo "    via comp.lang.pop or pop-forum AT cs.bham.ac.uk"
-    fi
-
+    echo "COULD NOT LINK NEWPOP11:"
+    echo "The rest may work anyway."
+    echo "If not, then try asking for help"
+    echo "    via comp.lang.pop or pop-forum AT cs.bham.ac.uk"
 fi
 
 ### Now rebuild system images
@@ -172,6 +121,7 @@ export PATH
 
 echo ""
 echo "Try to rebuild newpop, poplink, poplibr, popc, system images"
+
 
 echo "Try to rebuild newpop, first"
 echo "$popsrc/mknewpop"
@@ -199,7 +149,7 @@ else
 
         echo "Try asking for help"
         echo "    via comp.lang.pop or pop-forum AT cs.bham.ac.uk"
-        echo "Report Operating system and version, and version of poplog"
+        echo "Report Operatin system and version, and version of poplog"
         exit 2
     fi
 fi

@@ -6,17 +6,8 @@ Aaron Sloman
 http://www.cs.bham.ac.uk/~axs/
 
 POPLOG CHANGES FOR VERSION V15.65
-11 Feb 2015
-    See $usepop/pop/packages/CHANGES.txt
-    Mateusz Grotek reported problems linking 32-bit Poplog in 64-bit gentoo linux
-    The problem seems to have been the linking options for linux in
-        $popsrc/unixextern.p
-
-8 Feb 2015
-    See $usepop/pop/packages/CHANGES.txt
-
 21 Oct 2014
-    See CHANGES in INSTALL/AREADME.txt
+    See CHANGES in INSTALL/AREADME.
 
 26 Sep 2012
     Altered the script INSTALL_BHAM_LINUX_POPLOG so as to install

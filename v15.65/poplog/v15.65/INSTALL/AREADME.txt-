@@ -15,10 +15,13 @@ at least on 32 bit Ubuntu.
 
 However the previously linked version seems to work.
 
-So LINK_USING_NEWPOP has been altered to test for Ubuntu
-and re-use the original pop11. A temporary hack
+So LINK_USING_NEWPOP
+
+
+
 
 2 Oct 2010
+
 
 The main INSTALL_BHAM_LINUX_POPLOG script (and 64 bit version) uses
 scripts for various parts of the process in

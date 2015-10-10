@@ -4,16 +4,10 @@ section;
 
 global constant vedutils;
 
-;;; don't compile twice
 unless isundef(vedutils) then [endsection;] -> proglist endunless;
 
 ;;; Default root dir for package is THIS directory
 lconstant vedutils_dir = sys_fname_path(popfilename);
-
-;;; set up poppackagelist if necessary
-;;; Added 7 Feb 2015, Aaron sloman
-unless islist(poppackagelist) then [] -> poppackagelist endunless;
-
 
 ;;; delete or add directories as appropriate
 lconstant

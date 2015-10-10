@@ -4,7 +4,6 @@
 # Format:   tarcp <machine> [-d directory] <files...>
 # Use "." to mean on this machine
 # Documentation: man tarcp  (tarcp.l)
-## 11 Feb 2015: probably better to use rsync now.
 
 alias err 'echo "tarcp <machine> [-d <directory>] <files>"; exit'
 

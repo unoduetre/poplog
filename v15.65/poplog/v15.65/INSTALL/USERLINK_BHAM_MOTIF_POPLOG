@@ -7,11 +7,7 @@
 ## Use bham version of mkstartup
 ##
 ## Aaron Sloman (http://www.cs.bham.ac.uk/~axs/)
-## 11 Feb 2015
-
-echo "Starting USERLINK_BHAM_MOTIF_POPLOG"
-
-echo "now running ./LINK_LIKE_BHAM"
+##17 Jan 2005
 
 ./LINK_LIKE_BHAM
 

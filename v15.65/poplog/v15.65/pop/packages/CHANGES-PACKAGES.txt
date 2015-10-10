@@ -5,12 +5,6 @@ http://www.cs.bham.ac.uk/research/projects/poplog/latest-poplog/CHANGES-PACKAGES
 See also $usepop/CHANGES.txt
 Aaron Sloman
 
-8 Feb 2015
-
-    Altered $usepop/pop/packages/vedutils/vedutils.p to make poppackagelist an
-    empty list if not already defined. Not sure why this need has not been felt
-    previously.
-
 14 Sep 2013
     Various improvements for LIB ved_decode in
         $usepop/pop/packages/vedmail/auto/ved_decode.p
