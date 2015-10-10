@@ -1,4 +1,4 @@
-/* --- Copyright University of Sussex 2015. All rights reserved. ----------
+/* --- Copyright University of Sussex 2010. All rights reserved. ----------
  > File:            C.unix/src/unixextern.p
  > Purpose:
  > Author:          John Gibson (see revisions)
@@ -1065,15 +1065,13 @@ define lconstant shlib_searchlist() -> (extras, searchlist);
 #_ELSE
   #_IF DEF OSF1
 	lconstant default_searchlist = ['/usr/shlib/'];
-  #_ELSEIF DEF LINUX
+  #_ELSE
 	;;; Altered by Joe Wood
-	;;; Revised by Aaron Sloman following investigation by Mateusz Grotek
 	;;;lconstant default_searchlist = ['/usr/lib/'];
     ;;; order taken from gcc LIBRARY_PATH,
     ;;; e.g. gcc -v <a_self_contained_program>.c
     ;;; lconstant default_searchlist = ['/lib64/' '/usr/lib64/' '/lib' '/usr/lib'];
-	;;; list extended 7 Feb 2015, by A.S.
-    lconstant default_searchlist = ['/lib64/' '/usr/lib64/' '/lib32' '/usr/lib32' '/lib' '/usr/lib'];
+    lconstant default_searchlist = ['/lib32/' '/usr/lib32/'];
   #_ENDIF
 	default_searchlist -> searchlist;
 	;;; environment variable LD_LIBRARY_PATH adds to the defaults
@@ -1633,8 +1631,6 @@ endsection;		/* $-Sys$-Extern */
 
 
 /* --- Revision History ---------------------------------------------------
---- Aaron Sloman, Feb  8 2015
-		Altered previous change to look in more directories
 --- Joe Wood, Sep 14 2010
         Updated default_searchlist (under linux and some other
         OSes) to look in 64bit libraries.
