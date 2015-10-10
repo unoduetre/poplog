@@ -53,10 +53,10 @@ popversionmajor=v15.65
 export popversionmajor
 
 ## OPTION TO DISABLE UNTARRING THE TAR BUNDLE
-noextract="false"
+#noextract="false"
 ## Uncomment the following to allow previously untarred stuff
 ## to be used, without running the 'tar x' command again.
-#noextract="true"
+noextract="true"
 
 ##
 ###
