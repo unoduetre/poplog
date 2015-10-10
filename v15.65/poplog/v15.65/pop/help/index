@@ -235,23 +235,24 @@ veddo                   veddxterm               vedemacs
 vedexpand               vedfilecomplete         vedfiletypes
 vedfillblock            vedgetsysfile           vedgetsysfilepdr
 vedindentstep           vediocontrol            vedkey5
-vedkeys                 vedmacros               vedmux
-vednewkeys              vednonbreakfiles        vednotabs
-vedoldkeys              vedout                  vedoverlayblock
-vedrefreshblock         vedset                  vedsetkey
-vedsun                  vedsysfile              vedveddefaults
-vedwinsun               vedwordstar             vedwyse
-vedxgotomouse           vedxterm                vedxtermkeys
-vedyankblock            views                   vsh
-vt100                   vt100keys               vt101keys
-vt220keys               vt52                    vturtle
-warning                 wc                      wcmr
-which                   which_values            while
-windows                 with_nargs              with_props
-wordcount               wordquote               words
-wordswith               x                       xnews
-xnews.v13_9             xnews_v14.2             xved
-xwindows                yank
+vedkeys                 vedkeys.jpg             vedkeys.pdf
+vedmacros               vedmux                  vednewkeys
+vednonbreakfiles        vednotabs               vedoldkeys
+vedout                  vedoverlayblock         vedrefreshblock
+vedset                  vedsetkey               vedsun
+vedsysfile              vedveddefaults          vedwinsun
+vedwordstar             vedwyse                 vedxgotomouse
+vedxterm                vedxtermkeys            vedyankblock
+views                   vsh                     vt100
+vt100keys               vt101keys               vt220keys
+vt52                    vturtle                 warning
+wc                      wcmr                    which
+which_values            while                   windows
+with_nargs              with_props              wordcount
+wordquote               words                   wordswith
+x                       xnews                   xnews.v13_9
+xnews_v14.2             xved                    xwindows
+yank
 
 
 -----------------------------------------------------------------------
@@ -290,5 +291,5 @@ been loaded
 ____HELP * ___________________LIBOBJECTCLASSINDEX
 
 
---- __________________________________________________________________________/bham/htdocs/website/research/projects/poplog/v15.65/v15.65/pop/help/index
---- _________Copyright __________University __of ______Sussex _____2011. ___All ______rights _________reserved.
+--- _____________________________________________________/home/mateusz/poplog/v15.65/pop/v15.65/pop/help/index
+--- _________Copyright __________University __of ______Sussex _____2015. ___All ______rights _________reserved.

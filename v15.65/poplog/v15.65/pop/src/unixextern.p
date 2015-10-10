@@ -1070,7 +1070,8 @@ define lconstant shlib_searchlist() -> (extras, searchlist);
 	;;;lconstant default_searchlist = ['/usr/lib/'];
     ;;; order taken from gcc LIBRARY_PATH,
     ;;; e.g. gcc -v <a_self_contained_program>.c
-    lconstant default_searchlist = ['/lib64/' '/usr/lib64/' '/lib' '/usr/lib'];
+    ;;; lconstant default_searchlist = ['/lib64/' '/usr/lib64/' '/lib' '/usr/lib'];
+    lconstant default_searchlist = ['/lib32/' '/usr/lib32/'];
   #_ENDIF
 	default_searchlist -> searchlist;
 	;;; environment variable LD_LIBRARY_PATH adds to the defaults

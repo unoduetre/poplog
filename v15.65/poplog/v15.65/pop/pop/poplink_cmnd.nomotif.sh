@@ -13,7 +13,7 @@ poplink_4.o \
 poplink_dat.o \
 -L$popexternlib/ \
 -m32 -lpop \
--L/usr/lib \
+-L/usr/lib32 \
 -lXt \
 -lX11 \
 -ldl \

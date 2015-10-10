@@ -1,0 +1,893 @@
+nie, 11 paź 2015, 00:51:40 BST
+
+Installing poplog from tar bundle in /home/mateusz/poplog/github/v15.65
+Will attempt to install with motif
+Installing in /home/mateusz/poplog/github/v15.65/poplog
+Symbolic links from /usr/local will not be installed
+
+
+Installing motif /home/mateusz/poplog/github/v15.65/poplog Poplog version v15.65 in: /home/mateusz/poplog/github/v15.65/poplog
+Root directory for poplog set to: /home/mateusz/poplog/github/v15.65/poplog
+Creating directories for poplog and for local extensions.
+mkdir: nie można utworzyć katalogu „/home/mateusz/poplog/github/v15.65/poplog/v15.65/poplocalbin”: Plik istnieje
+  poplocal is /home/mateusz/poplog/github/v15.65/poplog
+  local    is /home/mateusz/poplog/github/v15.65/poplog/local
+  usepop   is /home/mateusz/poplog/github/v15.65/poplog/v15.65
+ln: nie udało się utworzyć dowiązania symbolicznego „pop/pop”: Plik istnieje
+USING PREVIOUSLY UNPACKED TAR FILE IN /home/mateusz/poplog/github/v15.65/poplog
+Main poplog system installed in /home/mateusz/poplog/github/v15.65/poplog/v15.65
+Top-level contents of /home/mateusz/poplog/github/v15.65/poplog/v15.65:
+razem 36
+drwxr-xr-x  3 mateusz mateusz 4096 10-11 00:51 bin
+lrwxrwxrwx  1 mateusz mateusz   24 10-11 00:43 CHANGES-PACKAGES.txt -> pop/packages/CHANGES.txt
+lrwxrwxrwx  1 mateusz mateusz   15 10-11 00:43 CHANGES.txt -> pop/CHANGES.txt
+lrwxrwxrwx  1 mateusz mateusz   15 10-11 00:43 CHANGES-v15.65.txt -> pop/CHANGES.txt
+-rw-r--r--  1 mateusz mateusz 3550 10-11 00:43 copyright.html
+drwxr-xr-x  2 mateusz mateusz 4096 10-11 00:43 INSTALL
+drwxr-xr-x  3 mateusz mateusz 4096 10-11 00:43 man
+drwxr-xr-x 20 mateusz mateusz 4096 10-11 00:43 pop
+drwxr-xr-x  2 mateusz mateusz 4096 10-11 00:51 Poplib
+drwxr-xr-x  2 mateusz mateusz 4096 10-11 00:43 poplocalbin
+-rwxr-xr-x  1 mateusz mateusz 3737 10-11 00:43 poplog
+-rwxr-xr-x  1 mateusz mateusz 3637 10-11 00:43 poplog.sh
+-rw-r--r--  1 mateusz mateusz    0 10-11 00:43 REBUILT-26-Sept-2012
+-rw-r--r--  1 mateusz mateusz    0 10-11 00:43 This.is.linux.poplog.v15.65
+lrwxrwxrwx  1 mateusz mateusz   23 10-11 00:43 userguide.html -> man/man1/userguide.html
+=======================================================================
+
+Now running scripts provided in /home/mateusz/poplog/github/v15.65/poplog/v15.65/INSTALL
+Running the 'pre-check' script CHECK_LINUX_FACILITIES
+
+-----------------------------------
+Checking for X11 libraries
+/usr/lib/i386-linux-gnu does not exist
+Looking in /usr/lib32
+
+looking for /usr/lib32/libX11.so
+Found /usr/lib32/libX11.so -- Good
+
+looking for /usr/lib32/libXt.so
+Found /usr/lib32/libXt.so -- Good
+
+looking for /usr/lib32/libXext.so
+Found /usr/lib32/libXext.so -- Good
+
+looking for /usr/lib32/libXm.so
+Found /usr/lib32/libXm.so -- Good
+Looking in /usr/lib
+/usr/X11R6/lib does not exist
+
+Good: All the main X11 libraries and Motif or Lesstif present
+Results of looking for locations of X11 libraries:
+X11 /usr/lib32 -- Xt /usr/lib32 -- Xext /usr/lib32 -- Xm /usr/lib32
+
+-----------------------------------
+Motif Found
+
+Poplog should link OK with X and Motif
+Good all linux facilities present
+Xwindow stuff OK? true ||| MotifOK? true 
+=======================================================================
+Completed the 'pre-check' script CHECK_LINUX_FACILITIES
+Run ./CREATE_SCRIPTS /home/mateusz/poplog/github/v15.65/poplog
+making script for sh ksh and bash users
+
+
+making script for csh and tcsh users
+Startup scripts created in /home/mateusz/poplog/github/v15.65/poplog/bin
+-rwxr-xr-x 1 mateusz mateusz 5018 10-11 00:51 /home/mateusz/poplog/github/v15.65/poplog/v15.65/bin/poplog
+-rw-r--r-- 1 mateusz mateusz 1257 10-11 00:43 /home/mateusz/poplog/github/v15.65/poplog/v15.65/bin/poplogmail
+-rwxr-xr-x 1 mateusz mateusz 4915 10-11 00:51 /home/mateusz/poplog/github/v15.65/poplog/v15.65/bin/poplog.sh
+poplog and poplog.sh startup scripts Done
+======================================================
+directories in /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop 
+razem 148
+drwxr-xr-x  2 mateusz mateusz  4096 10-11 00:43 adm
+-rw-r--r--  1 mateusz mateusz    25 10-11 00:43 CDIRS
+-rw-r--r--  1 mateusz mateusz 22293 10-11 00:43 CHANGES.txt
+-rw-r--r--  1 mateusz mateusz 22290 10-11 00:43 CHANGES.txt-
+drwxr-xr-x  5 mateusz mateusz  4096 10-11 00:43 com
+drwxr-xr-x  2 mateusz mateusz  4096 10-11 00:43 discarded
+drwxr-xr-x  3 mateusz mateusz  4096 10-11 00:43 doc
+drwxr-xr-x  4 mateusz mateusz  4096 10-11 00:43 extern
+drwxr-xr-x  2 mateusz mateusz 20480 10-11 00:43 help
+drwxr-xr-x 17 mateusz mateusz  4096 10-11 00:43 lib
+drwxr-xr-x  7 mateusz mateusz  4096 10-11 00:43 lisp
+drwxr-xr-x  2 mateusz mateusz  4096 10-11 00:43 obj
+drwxr-xr-x 26 mateusz mateusz  4096 10-11 00:43 packages
+drwxr-xr-x  7 mateusz mateusz  4096 10-11 00:43 plog
+drwxr-xr-x  5 mateusz mateusz  4096 10-11 00:43 pml
+drwxr-xr-x  2 mateusz mateusz  4096 10-11 00:43 pop
+drwxr-xr-x  3 mateusz mateusz  4096 10-11 00:43 ref
+drwxr-xr-x  3 mateusz mateusz 12288 10-11 00:43 src
+drwxr-xr-x  2 mateusz mateusz  4096 10-11 00:43 teach
+drwxr-xr-x  3 mateusz mateusz  4096 10-11 00:43 ved
+drwxr-xr-x  9 mateusz mateusz  4096 10-11 00:43 x
+======================================================
+Now rebuilding system images
+Poplog Version 15.65
+going to INSTALL dir /home/mateusz/poplog/github/v15.65/poplog/v15.65/INSTALL 
+Choose version of mkstartup
+Selecting 'bham' version of mkstartup
+Bham version of $usepop/pop/com/mkstartup set up
+nie, 11 paź 2015, 00:51:40 BST
+running ./LINK_USING_NEWPOP motif
+relinking with motif
+Doing initial setup before newpop
+
+Now relinking and rebuilding poplog images
+Poplog Version 15.65
+Installing with motif
+
+trying to run /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pop/poplink_cmnd.motif.sh
+
+checking for newpop11 after poplink_cmnd
+-rwxr-xr-x 1 mateusz mateusz 1809740 10-11 00:51 newpop11
+copying newpop11 to basepop11
+
+Try to rebuild newpop, poplink, poplibr, popc, system images
+Try to rebuild newpop, first
+/home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/src/mknewpop
+;;; MAKING IMAGE /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pop/newp
+	op.psv
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/lib/newpo
+	p.p
+newpop.psv image appears to have been created OK
+/home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/src/mksyscomp poplink poplibr popc
+Loading POPLINK Version 14.22
+;;; LOADING lib.p
+;;; LOADING sysdefs.p
+;;; LOADING mcdata.p
+;;; LOADING files.p
+;;; LOADING wordflags.p
+;;; LOADING asmout.p
+;;; LOADING os_comms.p
+;;; LOADING w_util.p
+;;; LOADING w_module.p
+;;; LOADING poplink_main.p
+Loading POPLIBR Version 14.22
+;;; LOADING lib.p
+;;; LOADING sysdefs.p
+;;; LOADING mcdata.p
+;;; LOADING files.p
+;;; LOADING wordflags.p
+;;; LOADING asmout.p
+;;; LOADING os_comms.p
+;;; LOADING w_util.p
+;;; LOADING w_module.p
+;;; LOADING poplibr_main.p
+Loading POPC Version 14.24
+;;; LOADING lib.p
+;;; LOADING sysdefs.p
+;;; LOADING mcdata.p
+;;; LOADING files.p
+;;; LOADING wordflags.p
+;;; LOADING asmout.p
+;;; LOADING os_comms.p
+;;; LOADING sysint.p
+;;; LOADING syspop.p
+;;; LOADING ident_labs.p
+;;; LOADING genfloat.p
+;;; LOADING genstruct.p
+;;; LOADING genproc.p
+;;; LOADING pas_optimise.p
+;;; LOADING m_optimise.p
+;;; LOADING m_trans.p
+;;; LOADING vm_genp.p
+;;; LOADING pas_interpret.p
+;;; LOADING w_util.p
+;;; LOADING syspop_mode.p
+;;; LOADING do_asm.p
+;;; LOADING popc_main.p
+
+System images made in popsys are:
+
+-rw-r--r-- 1 mateusz mateusz 113460 10-11 00:51 /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pop/newpop.psv
+-rw-r--r-- 1 mateusz mateusz 478272 10-11 00:51 /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pop/popc.psv
+-rw-r--r-- 1 mateusz mateusz 134208 10-11 00:51 /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pop/poplibr.psv
+-rw-r--r-- 1 mateusz mateusz 199744 10-11 00:51 /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pop/poplink.psv
+
+======================================================
+
+Now run newpop to re-link, rebuild indexes, etc.
+/home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/src/newpop -link -x=-xm -norsv
+Poplog Version 15.65
+NEWPOP started on Sun Oct 11 00:51:41 BST 2015
+system = pc
+usepop = /home/mateusz/poplog/github/v15.65/poplog/v15.65
+popsys = /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pop
+popsrc = /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/src
+Reading options file: /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/src
+	/newpop_options
+Linking newpop11 ...
+=== Running: ./pglink -xm -map
+Moving newpop11 to basepop11 ...
+!!! Warning - existing version of basepop11 in popsys saved as oldpop11
+Making the Poplog Widget Set ...
+=== Running: $popcom/mkXpw
+=== Running: $popcom/mkstartup
+;;; MAKING IMAGE /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/psv/
+	startup.psv
+;;; LOADING LIB popuseslist
+;;; LOADING LIB poppackagelist
+;;; LOADING LIB popxlib
+;;; LOADING LIB rc_graphic
+;;; LOADING LIB objectclass
+;;; LOADING LIB startup
+;;; Loading Sussex XVed (Version 4.0 (motif))
+
+;;; Source directories: $usepop/pop/x/ved/src/ 
+;;; LOADING $usepop/pop/x/ved/src/xveddeclare.p
+;;; LOADING $usepop/pop/x/ved/src/xvedgeneral.p
+;;; LOADING $usepop/pop/x/ved/src/xvedarglist.p
+;;; LOADING $usepop/pop/x/ved/src/xvedkeysymseq.p
+;;; LOADING $usepop/pop/x/ved/src/xvedscreen.p
+;;; LOADING $usepop/pop/x/ved/src/xvedinput.p
+;;; LOADING $usepop/pop/x/ved/src/xvedhandlers.p
+;;; LOADING $usepop/pop/x/ved/src/xvedclipboard.p
+;;; LOADING $usepop/pop/x/ved/src/xvedselections.p
+;;; LOADING $usepop/pop/x/ved/src/xvedbutton.p
+;;; LOADING $usepop/pop/x/ved/src/xvedkey.p
+;;; LOADING $usepop/pop/x/ved/src/xvedbitmaps.p
+;;; LOADING $usepop/pop/x/ved/src/xvedwm.p
+;;; LOADING $usepop/pop/x/ved/src/xvedvedtraps.p
+;;; LOADING $usepop/pop/x/ved/src/xvedwindows.p
+;;; LOADING $usepop/pop/x/ved/src/xvedresources.p
+;;; LOADING $usepop/pop/x/ved/src/xvedsetup.p
+;;; LOADING $usepop/pop/x/ved/src/xvedscrollbar.p
+;;; LOADING $usepop/pop/x/ved/src/xvedmenubar.p
+;;; LOADING $usepop/pop/x/ved/src/xveddialogs.p
+
+;;; Loaded XVed, Time = 0.46 seconds
+;;; LOADING LIB ved_autosave
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/teac
+	hing/teaching.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/bham
+	lib/bhamlib.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/vedu
+	tils/vedutils.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/rcli
+	b/rclib.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/lib/prwar
+	ning.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/lib/emacs
+	readline.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/vedu
+	tils/lib/vedscreendown.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/bham
+	lib/auto/vedsetwindow.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/rcli
+	b/auto/rc_control_panel.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/rcme
+	nu/rcmenu.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/vedm
+	ail/vedmail.p
+making xved based on $usepop/pop/lib/psv/startup.psv
+Linked basepop11 to pop11
+Linked basepop11 to prolog
+Linked basepop11 to clisp
+Linked basepop11 to pml
+Linked basepop11 to xved
+Linked basepop11 to ved
+Linked basepop11 to help
+Linked basepop11 to ref
+Linked basepop11 to teach
+Linked basepop11 to doc
+Linked basepop11 to im
+=== Running: $popcom/mkplog
+;;; MAKING IMAGE /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/psv/
+	prolog.psv
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/plog/src/prol
+	og.p
+
+;;; Compiling Prolog (Version 3.2)
+
+;;; Source directories: $usepop/pop/plog/src/ 
+
+;;; LOADING $usepop/pop/plog/src/prolog.ph
+;;; LOADING $usepop/pop/plog/src/builtins.ph
+;;; LOADING $usepop/pop/plog/src/syntax.ph
+;;; LOADING $usepop/pop/plog/src/util.p
+;;; LOADING $usepop/pop/plog/src/macros.p
+;;; LOADING $usepop/pop/plog/src/itemise.p
+;;; LOADING $usepop/pop/plog/src/precedence.p
+;;; LOADING $usepop/pop/plog/src/parse.p
+;;; GC-auto(C) 0.01  MEM: u 27914 + f 40691 + s 3 = 68608
+;;; LOADING $usepop/pop/plog/src/write.p
+;;; LOADING $usepop/pop/plog/src/format.p
+;;; LOADING $usepop/pop/plog/src/io.p
+;;; LOADING $usepop/pop/plog/src/alias.p
+;;; LOADING $usepop/pop/plog/src/procedures.p
+;;; LOADING $usepop/pop/plog/src/dynamic.p
+;;; LOADING $usepop/pop/plog/src/predicate_valof.p
+;;; LOADING $usepop/pop/plog/src/predicate_has_clauses.p
+;;; LOADING $usepop/pop/plog/src/prolog_valof.p
+;;; LOADING $usepop/pop/plog/src/prolog_invoke.p
+;;; LOADING $usepop/pop/plog/src/prolog_exceptions.p
+;;; LOADING $usepop/pop/plog/src/prolog_eval.p
+;;; LOADING $usepop/pop/plog/src/predicate_record.p
+;;; LOADING $usepop/pop/plog/src/predicate_declare.p
+;;; LOADING $usepop/pop/plog/src/predicate_define.p
+;;; LOADING $usepop/pop/plog/src/predicate_abolish.p
+;;; LOADING $usepop/pop/plog/src/transform.p
+;;; LOADING $usepop/pop/plog/src/gencode.p
+;;; LOADING $usepop/pop/plog/src/prolog_compile.p
+;;; LOADING $usepop/pop/plog/src/prolog_subsystem_procedures.p
+;;; LOADING $usepop/pop/plog/src/inline.p
+;;; LOADING $usepop/pop/plog/src/controlpreds.p
+;;; LOADING $usepop/pop/plog/src/optcontrol.p
+;;; LOADING $usepop/pop/plog/src/modules.p
+;;; LOADING $usepop/pop/plog/src/errors.p
+;;; LOADING $usepop/pop/plog/src/operators.p
+;;; LOADING $usepop/pop/plog/src/commands.p
+;;; LOADING $usepop/pop/plog/src/declpreds.p
+;;; LOADING $usepop/pop/plog/src/basicpreds.p
+;;; LOADING $usepop/pop/plog/src/iopreds.p
+;;; LOADING $usepop/pop/plog/src/sortpreds.p
+;;; LOADING $usepop/pop/plog/src/findall.p
+;;; LOADING $usepop/pop/plog/src/dbpreds.p
+;;; LOADING $usepop/pop/plog/src/compile.p
+;;; GC-auto(C) 0.01  MEM: u 82136 + f 261925 + s 3 = 344064
+;;; LOADING $usepop/pop/plog/src/systempreds.p
+;;; LOADING $usepop/pop/plog/src/predicate_info.p
+;;; LOADING $usepop/pop/plog/src/statistics.p
+;;; LOADING $usepop/pop/plog/src/toplevel.p
+;;; LOADING $usepop/pop/plog/src/grammar.p
+;;; LOADING $usepop/pop/plog/src/expand_term.p
+;;; LOADING $usepop/pop/plog/src/spy.p
+;;; LOADING $usepop/pop/plog/src/prolog_error.p
+;;; LOADING $usepop/pop/plog/src/prolog_ui.p
+;;; LOADING $usepop/pop/plog/src/plogved.p
+;;; LOADING $usepop/pop/plog/src/obsolete.p
+;;; GC-user(C) 0.01  MEM: u 91194 + f 252869 + s 1 = 344064
+
+;;; PROLOG COMPILED, TIME = 0.12 seconds
+=== Running: $popcom/mkclisp
+;;; MAKING IMAGE /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/psv/
+	clisp.psv
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/clis
+	p.p
+Loading Poplog Common Lisp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/lib/bitve
+	ctors.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/lib/rando
+	m_states.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/auto/bits
+	_in.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/auto/bits
+	_out.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/lib/float
+	_parameters.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/auto/form
+	at_print.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/auto/form
+	at_compile.p
+;;; GC-auto(C) 0.01  MEM: u 16401 + f 52197 + s 10 = 68608
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/ved/ved_w
+	iggle.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/pack
+	ages.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/util
+	.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/new_
+	2d_property.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/symb
+	ols.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/type
+	s.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/clos
+	.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/subt
+	ypep.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/spec
+	s.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/func
+	tions.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/appl
+	y.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/numb
+	ers.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/bitw
+	ise.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/char
+	s.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/arra
+	ys.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/seq.
+	p
+;;; GC-auto(C) 0.01  MEM: u 83481 + f 250340 + s 3 = 333824
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/hash
+	.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/list
+	s.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/stri
+	ngs.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/equa
+	ls.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/clos
+	-types.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/type
+	p.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/stre
+	ams.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/path
+	names.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/file
+	s.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/read
+	utils.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/item
+	ise.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/tmac
+	s.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/read
+	table.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/umac
+	s.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/dmac
+	s.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/read
+	.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/pp-d
+	ispatch.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/prin
+	tcore.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/pp.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/prin
+	t.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/writ
+	e.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/toke
+	ns.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/plan
+	t.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/eval
+	.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/decl
+	are.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/set.
+	p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/setf
+	.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/bloc
+	ks.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/tags
+	.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/let.
+	p
+;;; GC-auto(C) 0.01  MEM: u 176811 + f 476498 + s 3 = 653312
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/mult
+	i.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/prog
+	v.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/the.
+	p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/catc
+	h.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/inli
+	nes.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/laml
+	ists.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/dest
+	r.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/defu
+	n.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/defs
+	truct.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/meth
+	ods.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/magi
+	c-words.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/time
+	.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/brea
+	k.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/erro
+	rs.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/insp
+	ect.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/trac
+	e.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/comp
+	ile.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/modu
+	les.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/prop
+	sheet.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/subs
+	ystem_procedures.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/save
+	d_images.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/lisp
+	ved.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/ved_
+	f.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/ved_
+	mcp.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/expo
+	rtv.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/expo
+	rt.p
+Exporting from /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/e
+	xports
+;;; Note: APPLY has undefined nresults
+;;; Note: CALL-NEXT-METHOD has undefined nresults
+;;; Note: EVAL has undefined nresults
+;;; Note: FUNCALL has undefined nresults
+;;; Note: VALUES has undefined nresults
+;;; Note: VALUES-LIST has undefined nresults
+;;; Note: SYSTEM::CALL-METHOD has undefined nresults
+;;; Note: POP11-VAL has undefined nresults
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/expo
+	rti.p
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/defs
+	.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/cmac
+	ros.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/pack
+	ages.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/type
+	s.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/cont
+	rol.lsp
+;;; GC-auto(C) 0.01  MEM: u 317361 + f 682044 + s 19 = 999424
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/mapp
+	ing.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/setf
+	.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/defp
+	ackage.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/defs
+	truct.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/arra
+	ys.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/list
+	s.lsp
+;;; Note: DO-TREE-EQUAL has undefined nresults
+;;; Note: TREE-EQUAL has undefined nresults
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/ansi
+	-loop.lsp
+;;; Note: LOOP-DESETQ-INTERNAL has undefined nresults
+;;; Note: LOOP-DO-FOR has undefined nresults
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/numb
+	ers.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/seq.
+	lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/stri
+	ngs.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/io.l
+	sp
+;;; Note: SYSTEM::FUNCALL-WITH-STANDARD-IO-SYNTAX has undefined nresults
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/pp.l
+	sp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/clos
+	.lsp
+;;; Cannot create instance of class STANDARD-OBJECT
+;;; Cannot create instance of class STRUCTURE-OBJECT
+;;; Cannot create instance of class CLASS
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/cond
+	itions.lsp
+;;; Note: INVOKE-RESTART has undefined nresults
+;;; Note: INVOKE-RESTART-INTERACTIVELY has undefined nresults
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/erro
+	rs.lsp
+;;; Note: ABORT has undefined nresults
+;;; Note: CONTINUE has undefined nresults
+;;; Note: MUFFLE-WARNING has undefined nresults
+;;; Note: STORE-VALUE has undefined nresults
+;;; Note: USE-VALUE has undefined nresults
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/misc
+	.lsp
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/src/tidy
+	.lsp
+Loaded Common Lisp
+=== Running: $popcom/mkpml
+;;; MAKING IMAGE /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/psv/
+	pml.psv
+;;; LOADING /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pml/src/ml.p
+
+;;; Compiling Standard ML (Version 2.1)
+
+;;; Source directories: $usepop/pop/pml/src/ 
+
+;;; LOADING $usepop/pop/pml/src/util.p
+;;; LOADING $usepop/pop/pml/src/errors.p
+;;; LOADING $usepop/pop/pml/src/io.p
+;;; LOADING $usepop/pop/pml/src/lexitems.p
+;;; GC-auto(C) 0.01  MEM: u 18487 + f 50044 + s 77 = 68608
+;;; LOADING $usepop/pop/pml/src/lex.p
+;;; LOADING $usepop/pop/pml/src/syntax.p
+;;; LOADING $usepop/pop/pml/src/env.p
+;;; LOADING $usepop/pop/pml/src/parse.p
+;;; LOADING $usepop/pop/pml/src/types.p
+;;; LOADING $usepop/pop/pml/src/print_types.p
+;;; LOADING $usepop/pop/pml/src/data.p
+;;; LOADING $usepop/pop/pml/src/print_data.p
+;;; LOADING $usepop/pop/pml/src/type_errors.p
+;;; GC-auto(C) 0.01  MEM: u 77712 + f 256106 + s 6 = 333824
+;;; LOADING $usepop/pop/pml/src/modules.p
+;;; LOADING $usepop/pop/pml/src/typecheck.p
+;;; LOADING $usepop/pop/pml/src/trace.p
+;;; LOADING $usepop/pop/pml/src/exceptions.p
+;;; LOADING $usepop/pop/pml/src/vmml.p
+;;; LOADING $usepop/pop/pml/src/pregen.p
+;;; LOADING $usepop/pop/pml/src/gencode.p
+;;; LOADING $usepop/pop/pml/src/commands.p
+;;; LOADING $usepop/pop/pml/src/print_bindings.p
+;;; LOADING $usepop/pop/pml/src/compile.p
+;;; LOADING $usepop/pop/pml/src/external.p
+;;; LOADING $usepop/pop/pml/src/mlved.p
+;;; LOADING $usepop/pop/pml/src/showdef.p
+;;; LOADING $usepop/pop/pml/src/startup.p
+;;; LOADING $usepop/pop/pml/src/StdTypes.ml
+;;; LOADING $usepop/pop/pml/src/StdValues.ml
+;;; GC-auto(C) 0.01  MEM: u 144849 + f 500264 + s 7 = 645120
+;;; LOADING $usepop/pop/pml/src/StdIO.ml
+;;; LOADING $usepop/pop/pml/src/Int.ml
+;;; LOADING $usepop/pop/pml/src/Real.ml
+;;; LOADING $usepop/pop/pml/src/String.ml
+;;; LOADING $usepop/pop/pml/src/List.ml
+;;; LOADING $usepop/pop/pml/src/Vector.ml
+;;; LOADING $usepop/pop/pml/src/Array.ml
+;;; LOADING $usepop/pop/pml/src/Combinators.ml
+;;; LOADING $usepop/pop/pml/src/Memory.ml
+;;; LOADING $usepop/pop/pml/src/Printer.ml
+;;; LOADING $usepop/pop/pml/src/Compile.ml
+;;; GC-auto(C) 0.01  MEM: u 151763 + f 812838 + s 7 = 964608
+;;; LOADING $usepop/pop/pml/src/System.ml
+;;; LOADING $usepop/pop/pml/src/PML.ml
+;;; GC-user(C) 0.01  MEM: u 139976 + f 824631 + s 1 = 964608
+
+;;; PML COMPILED, TIME = 0.24 seconds
+=== Running: $popcom/mkxved
+;;; MAKING IMAGE /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/psv/
+	xved.psv
+;;; LOADING LIB mkxved
+Making documentation indexes ...
+=== Running: $popcom/makeindexes
+** [make_indexes /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop []
+	 index [ref help teach doc]]
+
+Making ref indexes in /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/
+	...
+Locating directories ..................
+Calculating index names ...
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/
+	ved/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/ved/ref/
+	]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/ved
+	/ref/xvedindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/
+	pop/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/pop/ref/
+	]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/pop
+	/ref/xpopindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/vedutils/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/v
+	edutils/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/vedutils/ref/packagesvedutilsindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/teaching/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/t
+	eaching/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/teaching/ref/packagesteachingindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/sim/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/s
+	im/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/sim/ref/packagessimindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/rclib/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/r
+	clib/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/rclib/ref/packagesrclibindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/prb/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/p
+	rb/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/prb/ref/packagesprbindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/package_template/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/p
+	ackage_template/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/package_template/ref/packagespackage_templateindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/newkit/sim/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/n
+	ewkit/sim/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/newkit/sim/ref/packagesnewkitsimindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/newkit/prb/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/n
+	ewkit/prb/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/newkit/prb/ref/packagesnewkitprbindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/neural/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/n
+	eural/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/neural/ref/packagesneuralindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pa
+	ckages/bhamlib/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packages/b
+	hamlib/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/bhamlib/ref/packagesbhamlibindex
+Indexing lisp directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/l
+	isp/ref/
+** [mklisprefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/r
+	ef/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/
+	ref/lispindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/li
+	b/objectclass/ref/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/object
+	class/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/o
+	bjectclass/ref/libobjectclassindex
+Indexing ref directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/re
+	f/
+** [mkrefindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/ref/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/ref/i
+	ndex
+
+Making help indexes in /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/
+	...
+Locating directories ...............................
+Calculating index names ...
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/ved
+	/help/xvedindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/pop
+	/help/xpopindex
+Indexing pml directory /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pm
+	l/help/
+** [mkpmlindex /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pml/help/]
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/pml/h
+	elp/pmlindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/plog/
+	help/plogindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/vedutils/help/packagesvedutilsindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/vedmail/help/packagesvedmailindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/vedlatex/help/packagesvedlatexindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/vedgn/help/packagesvedgnindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/teaching/help/packagesteachingindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/sim/help/packagessimindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/rcmenu/help/packagesrcmenuindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/rclib/help/packagesrclibindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/prb/help/packagesprbindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/popvision/pre14.51/help/packagespopvisionpre1451index
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/popvision/help/packagespopvisionindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/popmatlab/help/packagespopmatlabindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/package_template/help/packagespackage_templateindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/newkit/sim/help/packagesnewkitsimindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/newkit/prb/help/packagesnewkitprbindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/newc_dec/help/packagesnewc_decindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/neural/help/packagesneuralindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/master/help/packagesmasterindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/lockfile/help/packageslockfileindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/brait/help/packagesbraitindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/bhamlib/help/packagesbhamlibindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lisp/
+	help/lispindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/o
+	bjectclass/help/libobjectclassindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/help/
+	index
+
+Making teach indexes in /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/
+	...
+Locating directories ......................
+Calculating index names ...
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/ved
+	/teach/xvedindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/pop
+	/teach/xpopindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/plog/
+	teach/plogindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/vedutils/teach/packagesvedutilsindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/vedmail/teach/packagesvedmailindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/vedlatex/teach/packagesvedlatexindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/teaching/teach/packagesteachingindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/sim/teach/packagessimindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/rcmenu/teach/packagesrcmenuindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/rclib/teach/packagesrclibindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/prb/teach/packagesprbindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/popvision/teach/packagespopvisionindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/newkit/sim/teach/packagesnewkitsimindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/newkit/prb/teach/packagesnewkitprbindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/neural/teach/packagesneuralindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/brait/teach/packagesbraitindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/o
+	bjectclass/teach/libobjectclassindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/teach
+	/index
+
+Making doc indexes in /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/
+	...
+Locating directories ..........
+Calculating index names ...
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/x/pop
+	/doc/xpopindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/teaching/doc/packagesteachingindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/sim/doc/packagessimindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/package_template/doc/packagespackage_templateindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/newkit/sim/doc/packagesnewkitsimindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/packa
+	ges/bhamlib/doc/packagesbhamlibindex
+Creating index file /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/doc/i
+	ndex
+
+Finished.
+NEWPOP finished on Sun Oct 11 00:51:51 BST 2015
+
+Standard images made in popsavelib are:
+
+razem 6924
+-rw-r--r-- 1 mateusz mateusz 2018604 10-11 00:51 clisp.psv
+-rw-r--r-- 1 mateusz mateusz 1047852 10-11 00:51 pml.psv
+-rw-r--r-- 1 mateusz mateusz  814380 10-11 00:51 prolog.psv
+-rw-r--r-- 1 mateusz mateusz 2690316 10-11 00:51 startup.psv
+-rw-r--r-- 1 mateusz mateusz  515372 10-11 00:51 xved.psv
+Startup saved image appears to have been created OK
+
+Later delete any saved images you don't need
+
+done LINK MOTIF POPLOG
+===================================================
+
+nie, 11 paź 2015, 00:51:51 BST
+Install motif /home/mateusz/poplog/github/v15.65/poplog nolinks worked OK
+Saved images in /home/mateusz/poplog/github/v15.65/poplog/v15.65/pop/lib/psv/
+nie, 11 paź 2015, 00:51:51 BST
+Executable and man files not linked
+done INSTALL POPLOG FOR LINUX + PC in /home/mateusz/poplog/github/v15.65/poplog using motif /home/mateusz/poplog/github/v15.65/poplog
+nie, 11 paź 2015, 00:51:51 BST

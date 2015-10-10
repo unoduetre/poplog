@@ -1,8 +1,7 @@
 http://www.cs.bham.ac.uk/research/poplog/v15.63/AREADME.txt
+Updated: 29 Jun 2009; 26 Dec 2011
 
-Updated: 29 Jun 2009; 26 Dec 2011; 10 Oct 2015
-
-32-BIT LINUX POPLOG VERSION 15.65 (Prelinked and linkable versions.)
+32-BIT LINUX POPLOG VERSION 15.65
 
 This file is part of the Free Poplog System, described here:
 
@@ -23,19 +22,20 @@ directory is now included in a new sub-directory:
 
     $usepop/pop/packages
 
+
 leaving the $poplocal directory free for local use.
 
 Installation is now much easier than before 15.6.
 For details see
 
-    http://www.cs.bham.ac.uk/research/projects/poplog/latest-poplog/
+    http://www.cs.bham.ac.uk/research/projects/poplog/latest-poplog/#installing
 
 That includes pre-requisites for Fedora and Ubuntu users. It is hoped that
 other users of debian based linux can follow the instructions for Ubuntu.
 Arch linux users can modify the package fetching commands.
 
-Users who use 'rpm'- based packages or yum/dnf should be able to follow the
-instructions for Fedora users.
+Users who use 'rpm'- based packages should be able to follow the instructions
+for Fedora users.
 
 The rest of this file explains some the steps involved in installation, which
 are now done by 'get-and-install-scripts', described in the 'latest-poplog'
@@ -44,7 +44,6 @@ web page, mentioned above.
 So most users can ignore the rest of this file.
 
 -- NEWS AND NOTES -----------------------------------------------------
-
 MOST RECENT NEWS IS IN THIS FILE:
 
     http://www.cs.bham.ac.uk/research/projects/poplog/latest-poplog
@@ -423,6 +422,5 @@ The man files will normally be copied to
 
 Aaron Sloman
 4 26 Dec 2011
-Updated: 10 Oct 2015
 http://www.cs.bham.ac.uk/~axs/
 [end]

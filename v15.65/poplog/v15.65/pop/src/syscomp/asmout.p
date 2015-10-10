@@ -122,8 +122,8 @@ global constant macro (
 ;;; Assembler directive strings
 
 global constant macro (
-	$- ASM_TEXT_STR	= '\t.text',
-	$- ASM_DATA_STR	= '\t.data',
+	$- ASM_TEXT_STR	= '\t.text\n.align 4\n',
+	$- ASM_DATA_STR	= '\t.data\n.align 4\n',
 	$- ASM_BYTE_STR	= '\t.byte\t',
 	$- ASM_SHORT_STR= '\t.value\t',
 	$- ASM_INT_STR	= '\t.long\t',
