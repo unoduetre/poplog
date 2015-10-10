@@ -1,2 +1,2 @@
-# poplog
+# Poplog
 Poplog programming environment
