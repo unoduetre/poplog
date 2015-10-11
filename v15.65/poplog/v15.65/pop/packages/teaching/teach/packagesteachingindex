@@ -27,12 +27,12 @@ respond                 revise                  river
 river2                  river2.p                riverchat
 schemata                searching               seepics
 seepicture              sir                     solvems
-solver                  storygrammar            storygrammar
-strips                  teachingteachindex      tourist_guide.p
-tower                   transsent               tree
-ttt                     turtle                  unix.intro
-views                   vturtle                 waltz
-waltz2                  wang                    whysyntax
+solver                  storygrammar            strips
+teachingteachindex      tourist_guide.p         tower
+transsent               tree                    ttt
+turtle                  unix.intro              views
+vturtle                 waltz                   waltz2
+wang                    whysyntax
 
 
 -----------------------------------------------------------------------
@@ -61,5 +61,5 @@ been loaded
 _____TEACH * _____INDEX
 
 
---- ________________________________________________________________________________________/home/mateusz/poplog/v15.65/pop/v15.65/pop/packages/teaching/teach/packagesteachingindex
---- _________Copyright __________University __of ______Sussex _____2015. ___All ______rights _________reserved.
+--- _____________________________________________________________________________________________________________/bham/htdocs/website/research/projects/poplog/v15.65/v15.65/pop/packages/teaching/teach/packagesteachingindex
+--- _________Copyright __________University __of ______Sussex _____2011. ___All ______rights _________reserved.

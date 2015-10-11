@@ -36,18 +36,18 @@ progstyle               prolog                  quickved
 random                  random_walk             readarray
 readline                recurse1                recurse2
 recurse3                recursion               regexp
-rename_output           riverworld              sets
-sets.ans                sets1                   sets2
-sets2.ans               showarray               simplemaths
-sorted.txt              stack                   stats
-super_example           super_example.p         switchwindow
-teach                   teach_using_menu        teachfiles
-teachnums               teachnums.p             telnetkeys
-trace                   vars                    vars_and_lvars
-ved                     vednotes                vedpop
-vedproc                 vedsearch               vedtips
-vm                      vt100                   wal
-window                  yank
+rename_output           sets                    sets.ans
+sets1                   sets2                   sets2.ans
+showarray               simplemaths             sorted.txt
+stack                   stats                   super_example
+super_example.p         switchwindow            teach
+teach_using_menu        teachfiles              teachnums
+teachnums.p             telnetkeys              trace
+vars                    vars_and_lvars          ved
+vednotes                vedpop                  vedproc
+vedsearch               vedtips                 vm
+vt100                   wal                     window
+yank
 
 
 -----------------------------------------------------------------------
@@ -76,5 +76,5 @@ been loaded
 _____TEACH * ___________________LIBOBJECTCLASSINDEX
 
 
---- ______________________________________________________/home/mateusz/poplog/v15.65/pop/v15.65/pop/teach/index
---- _________Copyright __________University __of ______Sussex _____2015. ___All ______rights _________reserved.
+--- ___________________________________________________________________________/bham/htdocs/website/research/projects/poplog/v15.65/v15.65/pop/teach/index
+--- _________Copyright __________University __of ______Sussex _____2011. ___All ______rights _________reserved.
